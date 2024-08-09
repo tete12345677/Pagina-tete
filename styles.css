@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    background-color: #1c1c1c;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal para login y registro */
+.login-container, .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Encabezado */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulario de login y registro */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Estilos para la ventana del chat */
+.chat-window {
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 500px; /* Ajusta según sea necesario */
+}
+
+/* Encabezado del chat */
+.chat-header, .chat-footer {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cuerpo del chat */
+.chat-body {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: #1c1c1c;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Estilos para los íconos del chat */
+.header-icon, .footer-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilos para la barra inferior del chat */
+.chat-footer {
+    display: flex;
+    align-items: center;
+}
+
+.chat-footer input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Estilos adicionales */
+.chat-message {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.chat-message strong {
+    color: #007bff;
+}
